@@ -1,0 +1,11 @@
+* NLP applied to judicial decisions parsing (https://challengedata.ens.fr/challenges/24)
+	description: on a des données de jurisprudence et on veut créer un algo qui permet d’automatiser l’extraction des infos suivantes : sex of the victim, the date of the accident and the date of the consolidation of the injuries.
+
+* Drug-related questions classification (https://challengedata.ens.fr/challenges/17)
+	Description : On a des questions sur des médicaments et on doit faire un algo qui, à partir de la question posée, prédit l’intention derrière
+
+* Sentiment analysis sur des avis amazon (https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews)
+    Description : on a des avis amazon et on veut donner le sentiment associé
+
+* Classification de catégories (Reuters) (https://kdd.ics.uci.edu/databases/reuters21578/reuters21578.html)
+
