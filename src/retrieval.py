@@ -10,7 +10,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 from tqdm import tqdm
 import pandas as pd
-from rag_preprocess import PreprocessDocuments
+from preprocess import PreprocessDocuments
 
 
 class RetrievalAugmentedGenerator():
@@ -28,10 +28,9 @@ class RetrievalAugmentedGenerator():
             texte = row["texte"]
             filename = row["filename"]
 
-            # content = preprocess_documents(pd.Series({"texte": texte, "filename": filename}))
-            content = PreprocessDocuments(pd.Series({"texte": texte,
-                                                     "filename": filename}
-                                                     )).preprocess_documents()
+            content = \
+                PreprocessDocuments(pd.Series({"texte": texte,
+                                               "filename": filename})).preprocess_documents()
             if self.openai_model != None:
                 model = ChatOpenAI(model=self.openai_model, temperature=0.2)
 
