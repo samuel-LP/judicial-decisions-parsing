@@ -49,6 +49,7 @@ pip install -r requirements.txt
 ## How do we parse the juridical text?
 
 To predict the sex of the victim, we used a TF-IDF
+
 For the dates, we used 2 different methods :
 1. For each texts, we used a NER for isolating the dates and the context behind it. After that used a RAG to predict the dates.
 2. We applied a RAG on all the text.
