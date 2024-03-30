@@ -52,3 +52,14 @@ To predict the sex of the victim, we used a TF-IDF
 For the dates, we used 2 different methods :
 1. For each texts, we used a NER for isolating the dates and the context behind it. After that used a RAG to predict the dates.
 2. We applied a RAG on all the text.
+
+## Project structure
+
+src: The project source code, this folder includes the data preprocessing, the metrics evaluation, the RAG code and the normalization of dates scripts.
+notebooks: This folder contains Jupyter notebooks used for exploratory data analysis and all the models used in this project.
+
+## Authors
+
+- [Axel Fritz](https://github.com/AxelFritz2)
+- [Jynaldo Jeannot](https://github.com/jeannoj99)
+- [Samuel Pariente Launay](https://github.com/samuel-LP)
