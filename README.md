@@ -56,7 +56,9 @@ For the dates, we used 2 different methods :
 
 ## Project structure
 
-src: The project source code, this folder includes the data preprocessing, the metrics evaluation, the RAG code and the normalization of dates scripts.
+src: The project source code, this folder include:
+- For the sex recognition: the data collator, the dataloader, the BERT model and the embeddings model scripts.
+- For the date recognition: the data preprocessing, ,the metrics evaluation, the RAG code and the normalization of dates scripts.
 
 notebooks: This folder contains Jupyter notebooks used for exploratory data analysis and all the models used in this project.
 

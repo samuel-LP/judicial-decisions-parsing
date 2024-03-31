@@ -10,6 +10,10 @@ class Preprocessing():
     def __init__(self, data):
         self.data = data
 
+    def remove_newlines(self):
+        self.data = self.data.replace("\n", '', regex=True)
+        return self.data
+
     def remove_stopwords(self):
         self.data["texte"] = \
             self.data["texte"].apply(lambda x: ' '.join(
