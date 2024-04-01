@@ -1,6 +1,6 @@
-# Judicial decisions parsing
+# Juridical decisions parsing
 
-## Welcome on our Judicial decisions parser!
+## Welcome on our juridical decisions parser!
 
 The objective of this repository is to create a parser for judicial decisions texts. 
 The information targeted are the following :
