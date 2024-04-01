@@ -1,4 +1,4 @@
-# Judicial decisions parser
+# Judicial decisions parsing
 
 ## Welcome on our Judicial decisions parser!
 
