@@ -16,7 +16,7 @@ from preprocess import PreprocessDocuments
 class RetrievalAugmentedGenerator():
     def __init__(self, df, query, openai_model, embedding_model_name):
         self.df = df
-        self.query = query
+        self.query = query.lower()
         self.openai_model = openai_model
         self.embedding_model_name = embedding_model_name
 
