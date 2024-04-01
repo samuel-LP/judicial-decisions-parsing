@@ -8,7 +8,7 @@ The information targeted are the following :
 - The date of accident : this is the date when the accident happened. It is quite always present in the document.
 - The date of conoslidation of the injuries : This is the date when the injuries of the victim became stable and were declared final by a physician. It is not always present in the document.
 
-The datas come from this challenge : [NLP applied to judicial decisions parsing](https://challengedata.ens.fr/participants/challenges/24/)
+The datas come from this challenge : [NLP applied to juridical decisions parsing](https://challengedata.ens.fr/participants/challenges/24/)
 
 ## Installation
 
