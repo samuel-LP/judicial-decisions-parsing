@@ -48,21 +48,23 @@ pip install -r requirements.txt
 
 ## How do we parse the juridical text?
 
-To predict the sex of the victim, we used a TF-IDF, an embedding model fine tuned and a RAG.
+To predict the sex of the victim, we used a TF-IDF
 
 For the dates, we used 2 different methods :
-
 1. For each texts, we used a NER for isolating the dates and the context behind it. After that used a RAG to predict the dates.
 2. We applied a RAG on all the text.
 
 ## Project structure
 
-src: The project source code, this folder include:
+1. **src**
 
-- For the sex recognition: the data collator, the dataloader, the BERT model, the embeddings model and the normalization of sex scripts.
-
+The project source code, this folder include:
+- For the sex recognition: the data collator, the dataloader, the BERT model and the embeddings model scripts.
 - For the date recognition: the data preprocessing, ,the metrics evaluation, the RAG code and the normalization of dates scripts.
-notebooks: This folder contains Jupyter notebooks used for exploratory data analysis and all the models used in this project.
+
+2. **notebooks**
+
+This folder contains Jupyter notebooks used for exploratory data analysis and all the models and metrics we used in this project.
 
 ## Authors
 
