@@ -1,6 +1,6 @@
-# Juridical decisions parsing
+# Judicial decisions parsing
 
-## Welcome on our juridical decisions parser!
+## Welcome on our judicial decisions parser!
 
 The objective of this repository is to create a parser for judicial decisions texts. 
 The information targeted are the following :
@@ -8,7 +8,7 @@ The information targeted are the following :
 - The date of accident : this is the date when the accident happened. It is quite always present in the document.
 - The date of conoslidation of the injuries : This is the date when the injuries of the victim became stable and were declared final by a physician. It is not always present in the document.
 
-The datas come from this challenge : [NLP applied to juridical decisions parsing](https://challengedata.ens.fr/participants/challenges/24/)
+The datas come from this challenge : [NLP applied to judicial decisions parsing](https://challengedata.ens.fr/participants/challenges/24/)
 
 ## Installation
 
@@ -17,8 +17,8 @@ To run our code, do the following steps :
 1. Clone the repo by executing the following command :
 
 ```bash
-git clone https://github.com/samuel-LP/juridical-decisions-parser
-cd juridical-decisions-parser
+git clone https://github.com/samuel-LP/judicial-decisions-parser
+cd judicial-decisions-parser
 ```
 
 2. Create your virtual environment (venv) 
@@ -46,7 +46,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-## How do we parse the juridical text?
+## How do we parsed the judicial text?
 
 To predict the sex of the victim, we used a TF-IDF
 
