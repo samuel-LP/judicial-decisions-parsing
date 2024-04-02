@@ -17,8 +17,8 @@ To run our code, do the following steps :
 1. Clone the repo by executing the following command :
 
 ```bash
-git clone https://github.com/samuel-LP/juridical-decisions-parser
-cd juridical-decisions-parser
+git clone https://github.com/samuel-LP/judicial-decisions-parser
+cd judicial-decisions-parser
 ```
 
 2. Create your virtual environment (venv) 
